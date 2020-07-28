@@ -10,7 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Impulse Decay Function.vi" Type="VI" URL="../Impulse Decay Function.vi"/>
+		<Item Name="DigitiserActor.lvlib" Type="Library" URL="../DigitiserActor/DigitiserActor.lvlib"/>
+		<Item Name="EmulatorActor.lvlib" Type="Library" URL="../EmulatorActor/EmulatorActor.lvlib"/>
+		<Item Name="Launcher.vi" Type="VI" URL="../DigitiserActor/DigitiserActor/Launcher.vi"/>
 		<Item Name="UI Helper Loop Template.vi" Type="VI" URL="../UI Helper Loop Template.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
