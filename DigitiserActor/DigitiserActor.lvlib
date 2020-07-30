@@ -4,5 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Abstract Messages for Caller" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Process Data Msg.lvclass" Type="LVClass" URL="../DigitiserActor Messages/Process Data Msg/Process Data Msg.lvclass"/>
+	</Item>
 	<Item Name="DigitiserActor.lvclass" Type="LVClass" URL="../DigitiserActor/DigitiserActor.lvclass"/>
 </Library>
