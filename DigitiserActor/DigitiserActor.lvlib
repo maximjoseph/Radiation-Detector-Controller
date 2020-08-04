@@ -5,7 +5,11 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Abstract Messages for Caller" Type="Folder"/>
 	<Item Name="Messages for this Actor" Type="Folder">
+<<<<<<< Updated upstream
+=======
+		<Item Name="Integrate Pulse Msg.lvclass" Type="LVClass" URL="../DigitiserActor Messages/Integrate Pulse Msg/Integrate Pulse Msg.lvclass"/>
 		<Item Name="Make Error Msg.lvclass" Type="LVClass" URL="../DigitiserActor Messages/Make Error Msg/Make Error Msg.lvclass"/>
+>>>>>>> Stashed changes
 		<Item Name="Process Data Msg.lvclass" Type="LVClass" URL="../DigitiserActor Messages/Process Data Msg/Process Data Msg.lvclass"/>
 	</Item>
 	<Item Name="DigitiserActor.lvclass" Type="LVClass" URL="../DigitiserActor/DigitiserActor.lvclass"/>
